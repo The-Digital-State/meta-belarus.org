@@ -10,7 +10,7 @@ const routes = [
     props: true
   },
   {
-    path: '/project',
+    path: '/project/:project',
     name: 'project',
     component: Project,
     props: true

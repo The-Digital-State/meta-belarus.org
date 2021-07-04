@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 text-white">
       <div class="flex mb-6 items-center space-x-4">
         <FingerPrintIcon class="w-10" />
-        <h1 class="text-3xl font-extrabold tracking-tight">Meta-ID</h1>
+        <h1 class="text-3xl font-extrabold tracking-tight">Meta-ID ({{name}})</h1>
       </div>
       <div class="flex uppercase tracking-widest text-sm lg:flex-row flex-col font-semibold lg:space-x-5">
         <h5>1. Инкубация Идеи</h5>
@@ -58,14 +58,69 @@
 <script>
   import { FingerPrintIcon } from '@heroicons/vue/outline'
   import { ArrowNarrowRightIcon } from '@heroicons/vue/solid'
+  import { VueShowdown } from 'vue-showdown'
+  import {error} from "vue-resource/src/util"
+  import {ref} from "vue"
 
   export default {
-    
+
+    data() {
+      return {
+        name: 'value1'
+      }
+
+    },
+
+    setup(){
+      const name  = ref("abc")
+      //this.$route.params['project']
+      return name
+    },
+
+    created() {
+      console.log('Name is '+this.name)
+      this.name='value2'
+    },
+
+    // created() {
+    //   let file = "https://gist.githubusercontent.com/rt2zz/e0a1d6ab2682d2c47746950b84c0b6ee/raw/83b8b4814c3417111b9b9bef86a552608506603e/markdown-sample.md";
+    //   //const loading = ref(true);
+    //   //loading.value = true
+    //   data.name.value = 'zzz';
+    //
+    //   // let content = fetch(file, {
+    //   //
+    //   // }).then(res => {
+    //   //   if (!res.ok) {
+    //   //     // create error instance with HTTP status text
+    //   //     const error = new Error(res.statusText);
+    //   //     error.json = res.json();
+    //   //     throw error;
+    //   //   }
+    //   //   return res.json();
+    //   // }).then(json => {
+    //   //   data.name = "xxx"
+    //   // }).catch(err => {
+    //   //   error.value = err;
+    //   //   // In case a custom JSON error response was provided
+    //   //   if (err.json) {
+    //   //     return err.json.then(json => {
+    //   //       // set the JSON response message
+    //   //       error.value.message = json.message;
+    //   //     });
+    //   //   }
+    //   // })
+    //   //     .then(() => {
+    //   //       loading.value = false;
+    //   //     });
+    // },
+
     components: {
       ArrowNarrowRightIcon,
+      VueShowdown,
       FingerPrintIcon
     }
-    
+
   }
 
 </script>
