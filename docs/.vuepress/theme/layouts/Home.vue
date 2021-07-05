@@ -80,6 +80,7 @@
             <pagination />
           </template>
         </carousel>
+        <Content/>
       </div>
     </section>
   </app>

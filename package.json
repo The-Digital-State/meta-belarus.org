@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@heroicons/vue": "^1.0.1",
+    "@vuepress/utils": "^2.0.0-alpha.1",
     "vue3-carousel": "^0.1.23"
   },
   "devDependencies": {
