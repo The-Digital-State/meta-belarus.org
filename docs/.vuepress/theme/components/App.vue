@@ -52,16 +52,16 @@ export default {
     return {
       nav: [
         {
-          name: 'Link Name 1',
-          link: '/project'
+          name: 'eng',
+          link: '/'
         },
         {
-          name: 'Link Name 2',
-          link: '/project'
+          name: 'рус',
+          link: '/ru/'
         },
         {
-          name: 'Link Name 3',
-          link: '/project'
+          name: 'бел',
+          link: '/by/'
         }
       ]
     }
