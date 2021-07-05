@@ -29,7 +29,7 @@
           <div class="col-span-2">
             <div class="grid grid-cols-1 gap-5 mb-7 md:grid-cols-2">
               <div class="bg-blue-50 p-5 rounded text-blue-900">
-                <h3 class="font-bold mb-2">Кто этим пользуеться?</h3>
+                <h3 class="font-bold mb-2">{{$t('who_uses')}}</h3>
                 <p>{{$page.frontmatter.who}}</p>
               </div>
               <div class="bg-blue-50 p-5 rounded text-blue-900">
@@ -62,6 +62,9 @@
 
   export default {
 
+    mounted () {
+      this.$i18n.locale = this.$lang;
+    },
     components: {
       App,
       ArrowNarrowRightIcon,

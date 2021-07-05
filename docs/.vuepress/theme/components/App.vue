@@ -17,10 +17,11 @@
               }}
             </router-link>
           </div>
-          <router-link to="/project"
-                       class="inline-block w-32 text-center px-4 py-3 font-bold rounded text-white text-center bg-blue-600 hover:bg-blue-700">
-            Button
-          </router-link>
+          <a href="https://github.com/markvandal/metabelarus.core.cr"
+                       class="inline-flex items-center justify-center w-32 text-center px-4 py-3 font-bold rounded text-white text-center bg-blue-600 hover:bg-blue-700">
+            GitHub
+            <DownloadIcon class="h-5 w-5 ml-2"/>
+          </a>
         </nav>
       </div>
     </header>
@@ -33,8 +34,8 @@
           © 2021 {{ $t('title') }}
         </div>
         <nav class="space-x-5">
-          <router-link to="/" class="hover:text-gray-500">Privacy Policy</router-link>
-          <router-link to="/" class="hover:text-gray-500">Terms & Conditions</router-link>
+<!--          <router-link to="/" class="hover:text-gray-500">Privacy Policy</router-link>-->
+<!--          <router-link to="/" class="hover:text-gray-500">Terms & Conditions</router-link>-->
         </nav>
       </div>
     </footer>
@@ -45,9 +46,15 @@
 
 import ru from '../../../../locale/ru-BY'
 import en from '../../../../locale/en-GB'
+import {
+  DownloadIcon,
+} from '@heroicons/vue/outline'
 
 export default {
   name: 'App',
+  components: {
+    DownloadIcon,
+  },
   data () {
     return {
       nav: [
