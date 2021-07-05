@@ -45,8 +45,7 @@
             <h2 class="font-bold mb-5 text-2xl">Как помочь инициативе?</h2>
             <router-link to="/" class="w-full block bg-blue-600 text-center mb-7 py-3 px-5 rounded text-white font-bold">Button</router-link>
             <div class="space-y-3 text-blue-900">
-              <p>Curabitur egestas nisl eu dui euismod elementum.</p>
-              <p>Quisque vitae elit nunc. Nunc rhoncus efficitur massa, ut vestibulum ligula efficitur in.</p>
+              <Content slot-key="how-to-help"/>
             </div>
           </aside>
         </div>

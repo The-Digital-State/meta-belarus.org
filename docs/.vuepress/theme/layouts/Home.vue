@@ -3,15 +3,15 @@
     <section class="bg-blue-900">
       <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <h1 class="lg:text-4xl text-white text-opacity-50 text-2xl">
-          <span class="block"><span class="font-bold text-opacity-100 text-white">{{$t('title')}}</span> – это больше чем цифровые инструменты для восстановления законности и социальной справедливости. Мы дарим Беларусам идентичность и возможность построить страну для жизни не вставая с дивана.</span>
+          <span class="block"><span class="font-bold text-opacity-100 text-white">{{$t('title')}}</span> – {{$page.frontmatter.hero}}</span>
         </h1>
         <div class="mt-8 flex items-center lg:flex-shrink-0 md:space-x-4 flex-col md:flex-row md:space-y-0 space-y-2">
           <router-link to="/project" class="w-full md:w-60 inline-flex items-center justify-center px-5 py-3 border border-blue-600 rounded font-bold text-white bg-blue-600 hover:bg-blue-700 hover:border-blue-700">
-            Скачать Манифест
+            {{ $t('dl_manifest')}}
             <ArrowCircleDownIcon class="h-5 w-5 ml-2"/>
           </router-link>
-          <router-link to="/project" class="w-full md:w-60 rounded border border-white inline-flex items-center justify-center px-5 py-3 text-white font-bold hover:bg-blue-700 hover:border-blue-700">
-            Наши проекты
+          <router-link to="/project/meta-id.html" class="w-full md:w-60 rounded border border-white inline-flex items-center justify-center px-5 py-3 text-white font-bold hover:bg-blue-700 hover:border-blue-700">
+            {{ $t('our_projects')}}
           </router-link>
         </div>
       </div>
@@ -87,8 +87,6 @@
 
 <script>
   import App from '../components/App'
-  import ru from '../../../../locale/ru-BY'
-  import en from '../../../../locale/en-GB'
 
   // Icons
   import { ArrowCircleDownIcon } from '@heroicons/vue/outline'
@@ -109,12 +107,6 @@
       Slide,
       Pagination,
       Navigation
-    },
-    i18n: {
-      messages: {
-        'en-US': en,
-        'ru-BY': ru,
-      }
     },
     mounted () {
       this.$i18n.locale = this.$lang;

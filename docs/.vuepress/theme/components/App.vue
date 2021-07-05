@@ -67,8 +67,6 @@ export default {
     }
   },
   mounted () {
-    this.$i18n.locale = this.$lang;
-    console.log(this.$lang);
     ['html', 'body', '#app'].forEach(el => {
       document.querySelector(el).classList.add('h-full', 'min-h-full')
     })
