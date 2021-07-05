@@ -30,7 +30,7 @@
     <footer class="bg-gray-50 flex-grow-0">
       <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:py-8 lg:px-8 text-xs text-gray-400 flex">
         <div class="flex-grow">
-          &copy; 2021 Meta Belarus
+          {{ $t('copy') }}
         </div>
         <nav class="space-x-5">
           <router-link to="/" class="hover:text-gray-500">Privacy Policy</router-link>
@@ -42,6 +42,10 @@
 </template>
 
 <script>
+
+import ru from '../../../../locale/ru-BY'
+import en from '../../../../locale/en-GB'
+
 export default {
   name: 'App',
   data () {
@@ -63,10 +67,19 @@ export default {
     }
   },
   mounted () {
+    this.$i18n.locale = this.$lang;
+    console.log(this.$lang);
     ['html', 'body', '#app'].forEach(el => {
       document.querySelector(el).classList.add('h-full', 'min-h-full')
     })
+  },
+  i18n: {
+    messages: {
+      'en-US': en,
+      'ru-BY': ru,
+    }
   }
+
 }
 </script>
 
