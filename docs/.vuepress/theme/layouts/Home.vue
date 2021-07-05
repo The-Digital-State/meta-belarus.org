@@ -87,6 +87,8 @@
 
 <script>
   import App from '../components/App'
+  import ru from '../../../../locale/ru-BY'
+  import en from '../../../../locale/en-GB'
 
   // Icons
   import { ArrowCircleDownIcon } from '@heroicons/vue/outline'
@@ -107,6 +109,15 @@
       Slide,
       Pagination,
       Navigation
+    },
+    i18n: {
+      messages: {
+        'en-US': en,
+        'ru-BY': ru,
+      }
+    },
+    mounted () {
+      this.$i18n.locale = this.$lang;
     },
     data() {
       return {
