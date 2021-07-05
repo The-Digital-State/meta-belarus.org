@@ -1,3 +1,5 @@
 export default {
-    title: 'Meta-Belarus'
+    title: 'Meta-Belarus',
+    dl_manifest: 'Download Manifesto',
+    our_projects: 'Our Projects',
 }
