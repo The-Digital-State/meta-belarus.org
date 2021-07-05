@@ -6,7 +6,7 @@
           <span class="block"><span class="font-bold text-opacity-100 text-white">{{$t('title')}}</span> – {{$page.frontmatter.hero}}</span>
         </h1>
         <div class="mt-8 flex items-center lg:flex-shrink-0 md:space-x-4 flex-col md:flex-row md:space-y-0 space-y-2">
-          <router-link to="/project" class="w-full md:w-60 inline-flex items-center justify-center px-5 py-3 border border-blue-600 rounded font-bold text-white bg-blue-600 hover:bg-blue-700 hover:border-blue-700">
+          <router-link to="@assets/manifest-en.pdf" class="w-full md:w-60 inline-flex items-center justify-center px-5 py-3 border border-blue-600 rounded font-bold text-white bg-blue-600 hover:bg-blue-700 hover:border-blue-700">
             {{ $t('dl_manifest')}}
             <ArrowCircleDownIcon class="h-5 w-5 ml-2"/>
           </router-link>
@@ -89,7 +89,14 @@
   import App from '../components/App'
 
   // Icons
-  import { ArrowCircleDownIcon } from '@heroicons/vue/outline'
+  import {
+    AcademicCapIcon,
+    ArrowCircleDownIcon,
+    BeakerIcon,
+    CurrencyEuroIcon,
+    FlagIcon,
+    LibraryIcon, SpeakerphoneIcon
+  } from '@heroicons/vue/outline'
   import { ArrowRightIcon } from '@heroicons/vue/solid'
   import { FingerPrintIcon } from '@heroicons/vue/outline'
 
@@ -101,6 +108,7 @@
     components: {
       App,
       ArrowCircleDownIcon,
+      BeakerIcon,
       ArrowRightIcon,
       FingerPrintIcon,
       Carousel,
@@ -131,27 +139,33 @@
         },
         projects: [
           {
+            name: 'Albo',
+            description: 'Digital voting system designed to fight tampering and forgery. Implements secret ballots, transparent vote counting and audit',
+            icon: SpeakerphoneIcon,
+            link: '/project/albo.html'
+          },
+          {
             name: 'Meta-ID',
-            description: 'Fusce at est ac lectus ullamcorper elementum. Sed condimentum nec libero eu blandit. In laoreet mi et condimentum tempus.',
+            description: 'Belarus integration into EU eIDAS (SSI) network. Decentralised implementation using Blockchain technology.',
             icon: FingerPrintIcon,
-            link: '/project'
+            link: '/project/meta-id.html'
           },
           {
-            name: 'Project Name 2',
-            description: 'Fusce at est ac lectus ullamcorper elementum. Sed condimentum nec libero eu blandit. In laoreet mi et condimentum tempus.',
-            icon: ArrowCircleDownIcon,
-            link: '/project'
+            name: 'Nation of Leaders',
+            description: 'Educating citizens of Belarus. Offering courses on civil rights, anti-propaganda, community leadership, cyber security and more',
+            icon: AcademicCapIcon,
+            link: 'https://nationofleaders.org/' // TODO - not working
           },
           {
-            name: 'Project Name 3',
-            description: 'Fusce at est ac lectus ullamcorper elementum. Sed condimentum nec libero eu blandit. In laoreet mi et condimentum tempus.',
-            icon: ArrowCircleDownIcon,
-            link: '/project'
+            name: 'Budget Governance',
+            description: 'Government-independent and secure budget and grant control implemented through the blockchain technology and flat crypto currency.',
+            icon: CurrencyEuroIcon,
+            link: '/project/budget-governance.html'
           },
           {
-            name: 'Project Name 4',
+            name: 'The Digital State',
             description: 'Fusce at est ac lectus ullamcorper elementum. Sed condimentum nec libero eu blandit. In laoreet mi et condimentum tempus.',
-            icon: ArrowCircleDownIcon,
+            icon: LibraryIcon,
             link: '/project'
           }
         ]
