@@ -16,5 +16,16 @@ module.exports = {
       title: 'Мэта Беларусь',
       description: 'Цифровое Государство Новой Беларуси',
     },
+  },
+
+  bundlerConfig: {
+    postcss: {
+      postcssOptions: {
+        plugins: [
+          require('tailwindcss'),
+          require('autoprefixer'),
+        ]
+      }
+    }
   }
 }
