@@ -66,10 +66,10 @@ export default {
           name: 'рус',
           link: '/ru/'
         },
-        {
-          name: 'бел',
-          link: '/by/'
-        }
+        // {
+        //   name: 'бел',
+        //   link: '/by/'
+        // }
       ]
     }
   },

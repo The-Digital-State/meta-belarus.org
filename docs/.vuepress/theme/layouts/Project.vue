@@ -42,10 +42,10 @@
             </div>
           </div>
           <aside>
-            <h2 class="font-bold mb-5 text-2xl">Как помочь инициативе?</h2>
-            <router-link to="/" class="w-full block bg-blue-600 text-center mb-7 py-3 px-5 rounded text-white font-bold">Button</router-link>
+            <h2 class="font-bold mb-5 text-2xl">{{ $t('how_help') }}</h2>
+            <router-link v-if="$page.frontmatter.button_label" to="/" class="w-full block bg-blue-600 text-center mb-7 py-3 px-5 rounded text-white font-bold">{{$page.frontmatter.button_label}}</router-link>
             <div class="space-y-3 text-blue-900">
-              <Content slot-key="how-to-help"/>
+              {{$page.frontmatter.help || 'b'}}
             </div>
           </aside>
         </div>
