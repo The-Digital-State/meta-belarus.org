@@ -30,7 +30,7 @@
     <footer class="bg-gray-50 flex-grow-0">
       <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:py-8 lg:px-8 text-xs text-gray-400 flex">
         <div class="flex-grow">
-          {{ $t('copy') }}
+          © 2021 {{ $t('title') }}
         </div>
         <nav class="space-x-5">
           <router-link to="/" class="hover:text-gray-500">Privacy Policy</router-link>
