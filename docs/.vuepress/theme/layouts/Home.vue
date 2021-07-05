@@ -10,14 +10,14 @@
             {{ $t('dl_manifest')}}
             <ArrowCircleDownIcon class="h-5 w-5 ml-2"/>
           </router-link>
-          <router-link to="/project/meta-id.html" class="w-full md:w-60 rounded border border-white inline-flex items-center justify-center px-5 py-3 text-white font-bold hover:bg-blue-700 hover:border-blue-700">
+          <router-link v-if="false" to="/project/meta-id.html" class="w-full md:w-60 rounded border border-white inline-flex items-center justify-center px-5 py-3 text-white font-bold hover:bg-blue-700 hover:border-blue-700">
             {{ $t('our_projects')}}
           </router-link>
         </div>
       </div>
     </section>
     <section class="logos bg-gray-50">
-      <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-8 lg:px-8 grid md:grid-cols-3 lg:grid-cols-6 gap-10 grid-cols-2 text-gray-400">
+      <div v-if="false" class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-8 lg:px-8 grid md:grid-cols-3 lg:grid-cols-6 gap-10 grid-cols-2 text-gray-400">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 800 300" xml:space="preserve" class="flex-grow fill-current w-28">
           <path d="M54 21.4c-29.8 0-53.9 24.2-54 54 0 29.8 24.2 53.9 53.9 53.9h38.9c8.3 0 15-6.7 15-15v-39c.1-29.7-24.1-53.9-53.8-53.9zm26.9 80.9h-27c-14.9 0-27-12.1-27-27s12.1-27 27-27 27 12.1 27 27v27zM179.8 147.3h-38.9c-8.3 0-15 6.7-15 15v38.9c0 29.8 24.2 53.9 53.9 53.9 29.8 0 53.9-24.2 54-54 0-29.6-24.2-53.8-54-53.8zm0 80.9c-14.9 0-27-12.1-27-27v-27h27c14.9 0 27 12.1 27 27s-12.1 27-27 27z"/>
           <path d="M233.8 75.4c0-29.8-24.2-53.9-53.9-54-29.8 0-53.9 24.2-53.9 53.9v38.9c0 8.3 6.7 15 15 15h38.9c29.7.1 53.9-24.1 53.9-53.8zm-80.9 26.9v-27c0-14.9 12.1-27 27-27s27 12.1 27 27c0 14.8-12.1 26.9-27 26.9-.1.1-27 .1-27 .1z" />
@@ -69,9 +69,15 @@
             <div class="p-8 box-white shadow rounded flex items-start">
               <component v-bind:is="slide.icon" class="w-44 mr-8 mt-1 text-blue-600"></component>
               <div class="flex-grow text-left">
-                <h3 class="text-gray-600 text-xl font-bold mb-3">{{ slide.name }}</h3>
-                <p class="text-gray-400 mb-4 text-sm">{{ slide.description }}</p>
-                <router-link :to="slide.link" class="text-sm font-semibold text-blue-600 flex hover:text-blue-900"><span>View Project</span><ArrowRightIcon class="inline w-3 ml-2"/></router-link>
+                <h3 v-if="$lang === 'en-US'" class="text-gray-600 text-xl font-bold mb-3">{{ slide.name }}</h3>
+                <h3 v-if="$lang === 'ru-BY'" class="text-gray-600 text-xl font-bold mb-3">{{ slide.name_ru }}</h3>
+
+                <p v-if="$lang === 'en-US'" class="text-gray-400 mb-4 text-sm">{{ slide.description }}</p>
+                <p v-if="$lang === 'ru-BY'" class="text-gray-400 mb-4 text-sm">{{ slide.description_ru }}</p>
+
+                <a v-if="slide.url" :href="slide.url" class="text-sm font-semibold text-blue-600 flex hover:text-blue-900"><span>{{$t('view_project')}}</span><ArrowRightIcon class="inline w-3 ml-2"/></a>
+                <router-link v-else-if="($lang === 'ru-BY' && slide.link_ru)" :to="slide.link_ru" class="text-sm font-semibold text-blue-600 flex hover:text-blue-900"><span>{{$t('view_project')}}</span><ArrowRightIcon class="inline w-3 ml-2"/></router-link>
+                <router-link v-else :to="slide.link" class="text-sm font-semibold text-blue-600 flex hover:text-blue-900"><span>{{$t('view_project')}}</span><ArrowRightIcon class="inline w-3 ml-2"/></router-link>
               </div>
             </div>
           </slide>
@@ -140,33 +146,45 @@
         projects: [
           {
             name: 'Albo',
+            name_ru: 'Альбо',
             description: 'Digital voting system designed to fight tampering and forgery. Implements secret ballots, transparent vote counting and audit',
+            description_ru: 'Система по электронному голосованию. Реализует тайну голосования, подсчет голосов и возможность аудита',
             icon: SpeakerphoneIcon,
-            link: '/project/albo.html'
+            link: '/project/albo.html',
+            link_ru: '/ru/project/albo.html'
           },
           {
             name: 'Meta-ID',
+            name_ru: 'Мэта-ID',
             description: 'Belarus integration into EU eIDAS (SSI) network. Decentralised implementation using Blockchain technology.',
+            description_ru: 'Belarus integration into EU eIDAS (SSI) network. Decentralised implementation using Blockchain technology.',
             icon: FingerPrintIcon,
+            link_ru: '/ru/project/meta-id.html',
             link: '/project/meta-id.html'
           },
           {
             name: 'Nation of Leaders',
+            name_ru: 'Нация Лидеров',
             description: 'Educating citizens of Belarus. Offering courses on civil rights, anti-propaganda, community leadership, cyber security and more',
+            description_ru: 'Образование граждан Беларуси. Доступны курсы по правам человека, анти-пропаганды, лидерству и кибер-безопасности',
             icon: AcademicCapIcon,
-            link: 'https://nationofleaders.org/' // TODO - not working
+            url: 'https://nationofleaders.org/' // TODO - not working
           },
           {
             name: 'Budget Governance',
-            description: 'Government-independent and secure budget and grant control implemented through the blockchain technology and flat crypto currency.',
+            name_ru: 'Бюджетный контроль',
+            description: 'Government-independent and secure budget and grant control implemented through the blockchain technology and flat crypto currency',
+            description_ru: 'Система по контролю бюджетов основанной на блокчейне и fiat криптовалюте, неподконтрольная репрессивному режиму',
             icon: CurrencyEuroIcon,
             link: '/project/budget-governance.html'
           },
           {
             name: 'The Digital State',
-            description: 'Fusce at est ac lectus ullamcorper elementum. Sed condimentum nec libero eu blandit. In laoreet mi et condimentum tempus.',
+            name_ru: 'Мэта государство',
+            description: 'Blockchain-based self-governance system incorporating identity, election, power transfer, tax and budget control for decentralised parliament',
+            description_ru: 'Де-централизованная парламентская система самоуправления на блокчейне: идентификация, выборы, передача власти, налог и бюджет',
             icon: LibraryIcon,
-            link: '/project'
+            link: '/project/the-digital-state.html'
           }
         ]
       }
