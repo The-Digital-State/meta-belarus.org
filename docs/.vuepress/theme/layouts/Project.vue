@@ -37,7 +37,7 @@
                 <p>{{$page.frontmatter.how}}</p>
               </div>
             </div>
-            <div class="space-y-5">
+            <div class="space-y-5 markdown">
               <Content />
             </div>
           </div>
