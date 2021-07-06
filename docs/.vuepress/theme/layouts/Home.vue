@@ -10,8 +10,11 @@
             {{ $t('dl_manifest')}}
             <ArrowCircleDownIcon class="h-5 w-5 ml-2"/>
           </a>
-          <router-link v-if="false" to="/project/meta-id.html" class="w-full md:w-60 rounded border border-white inline-flex items-center justify-center px-5 py-3 text-white font-bold hover:bg-blue-700 hover:border-blue-700">
-            {{ $t('our_projects')}}
+          <a href="https://t.me/meta_belarus" class="w-full md:w-60 rounded border border-white inline-flex items-center justify-center px-5 py-3 text-white font-bold hover:bg-blue-700 hover:border-blue-700">
+            {{ $t('telegram')}}
+          </a>
+          <router-link to="/contact.html" class="w-full md:w-60 rounded border border-white inline-flex items-center justify-center px-5 py-3 text-white font-bold hover:bg-blue-700 hover:border-blue-700">
+            {{ $t('contact')}}
           </router-link>
         </div>
       </div>
@@ -101,7 +104,7 @@
     BeakerIcon,
     CurrencyEuroIcon,
     FlagIcon,
-    LibraryIcon, SpeakerphoneIcon
+    LibraryIcon, ShieldCheckIcon, SpeakerphoneIcon
   } from '@heroicons/vue/outline'
   import { ArrowRightIcon } from '@heroicons/vue/solid'
   import { FingerPrintIcon } from '@heroicons/vue/outline'
@@ -149,7 +152,7 @@
             name_ru: 'Альбо',
             description: 'Digital voting system designed to fight tampering and forgery. Implements secret ballots, transparent vote counting and audit',
             description_ru: 'Система по электронному голосованию. Реализует тайну голосования, подсчет голосов и возможность аудита',
-            icon: SpeakerphoneIcon,
+            icon: ShieldCheckIcon,
             link: '/project/albo.html',
             link_ru: '/ru/project/albo.html'
           },

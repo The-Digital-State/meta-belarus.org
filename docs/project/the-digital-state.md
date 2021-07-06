@@ -3,28 +3,12 @@ layout: Project
 lang: en-US
 title: Meta-ID
 who: Local communities, Belarusians abroad and identity-related service providers
-how: Hide activist personal data, provide reliable way of proving identity
+how: Allow citizens and companies to fund politicians they elect democratically
+button_label: More Information
+button_url: https://app.gitbook.com/@the-digital-state/s/the-digital-state/
 ---
-Альбо это проект платформы для голосования. Благодаря Альбо планируется упростить решение целого ряда социальных и политических проблем. Участие в голосовании станет проще, информация о проведении голосования - доступнее. Каждый пользователь сможет настроить информирование о проходящих голосованиях исходя из своих собственных интересов и предпочтениях.
+The digital state is a software project implementing political governance system resistant to corruption, misinformation and abuse of human rights.
 
-**Как это работает?**
-
-К примеру кто-то из жильцов захотел на районном пустыре построить общественный сквер. Такой человек создаёт в Альбо голосование в котором пишет, что предлагается построить сквер на пустыре,  указывает что:
- - голосование районное
- - создаётся зона отдыха
- - благоустраивается и озеленяется территория
- - размеры предлагаются (такие-то)
- - ставит геолокацию.
-
-Список параметров может быть продолжен.
-
-Те люди, которые окажутся подписанными на указанные параметры получат оповещение и смогут проголосовать в свеже созданном опросе.
-
-Кроме того, все голосования будут в открытом доступе, и любой желающий сможет ознакомится и принять в них участие. Голосования смогут создаваться на любую законную тему и проходить в любых масштабах в рамках Беларуси.
+The components are backed up by blockchain technology and together form DAO. The Digital State provides tools and documentation how anyone could set up and configure and launch the project for a social group of their choice - community, company or even entire country. The individual network configuration can be decided at the launch state or modified later through consensus.
 
 
-::: slot how-to-help
-
-Поддержите нас **денгами**
-
-:::
