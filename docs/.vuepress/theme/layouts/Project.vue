@@ -33,7 +33,7 @@
                 <p>{{$page.frontmatter.who}}</p>
               </div>
               <div class="bg-blue-50 p-5 rounded text-blue-900">
-                <h3 class="font-bold mb-2">Как это помогает главной миссии meta-belarus?</h3>
+                <h3 class="font-bold mb-2">{{$t('how_help')}}</h3>
                 <p>{{$page.frontmatter.how}}</p>
               </div>
             </div>
@@ -43,9 +43,9 @@
           </div>
           <aside>
             <h2 class="font-bold mb-5 text-2xl">{{ $t('how_help') }}</h2>
-            <router-link v-if="$page.frontmatter.button_label" to="/" class="w-full block bg-blue-600 text-center mb-7 py-3 px-5 rounded text-white font-bold">{{$page.frontmatter.button_label}}</router-link>
+            <a v-if="$page.frontmatter.button_label" :href="$page.frontmatter.button_url" class="w-full block bg-blue-600 text-center mb-7 py-3 px-5 rounded text-white font-bold">{{$page.frontmatter.button_label}}</a>
             <div class="space-y-3 text-blue-900">
-              {{$page.frontmatter.help || 'b'}}
+              {{$page.frontmatter.help || $t('default_help')}}
             </div>
           </aside>
         </div>
