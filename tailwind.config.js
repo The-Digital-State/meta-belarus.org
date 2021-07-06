@@ -7,6 +7,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('@geoffcodesthings/tailwind-md-base'),
+    require('@geoffcodesthings/tailwind-md-base')(),
   ],
 }
