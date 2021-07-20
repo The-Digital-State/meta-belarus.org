@@ -13,7 +13,7 @@
           <a href="https://t.me/meta_belarus" class="w-full md:w-60 rounded border border-white inline-flex items-center justify-center px-5 py-3 text-white font-bold hover:bg-blue-700 hover:border-blue-700">
             {{ $t('telegram')}}
           </a>
-          <router-link to="/contact.html" class="w-full md:w-60 rounded border border-white inline-flex items-center justify-center px-5 py-3 text-white font-bold hover:bg-blue-700 hover:border-blue-700">
+          <router-link :to="$t('prefix')+'contact.html'" class="w-full md:w-60 rounded border border-white inline-flex items-center justify-center px-5 py-3 text-white font-bold hover:bg-blue-700 hover:border-blue-700">
             {{ $t('contact')}}
           </router-link>
         </div>
