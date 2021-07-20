@@ -17,3 +17,5 @@ title: Contact Us
  - Email: info@meta-belarus.org
  - Facebook: [https://www.facebook.com/metaBelarus](https://www.facebook.com/metaBelarus)
  - LinkedIn: [https://www.linkedin.com/company/meta-belarus](https://www.linkedin.com/company/meta-belarus/)
+   
+Наш сайт на IPFS: [ipns://meta-belarus.org](ipns://meta-belarus.org)
