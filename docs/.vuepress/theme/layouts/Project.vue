@@ -6,7 +6,7 @@
           <FingerPrintIcon class="w-10" />
           <h1 class="text-3xl font-extrabold tracking-tight">{{$page.title}}</h1>
         </div>
-        <div class="flex uppercase tracking-widest text-sm lg:flex-row flex-col font-semibold lg:space-x-5">
+        <div class="hidden flex uppercase tracking-widest text-sm lg:flex-row flex-col font-semibold lg:space-x-5">
           <h5>1. Инкубация Идеи</h5>
           <div class="flex-grow text-center hidden lg:block">
             <ArrowNarrowRightIcon class="w-4 inline" />

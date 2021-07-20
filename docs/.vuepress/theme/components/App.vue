@@ -12,9 +12,7 @@
             class="text-xs md:space-x-10 flex md:flex-row flex-col text-center md:text-left md:items-center space-y-5 md:space-y-0">
           <div class="space-y-2 flex flex-col md:flex-row md:space-y-0 md:space-x-7">
             <router-link v-for="item in nav" :to="item.link"
-                         class="text-blue-600 uppercase tracking-widest font-semibold hover:text-blue-900">{{
-                item.name
-              }}
+                         class="text-blue-600 uppercase tracking-widest font-semibold hover:text-blue-900">{{item.name}}
             </router-link>
           </div>
           <a href="https://github.com/markvandal/metabelarus.core.cr"
@@ -75,10 +73,10 @@ export default {
           name: 'рус',
           link: '/ru/'
         },
-        // {
-        //   name: 'бел',
-        //   link: '/by/'
-        // }
+        {
+          name: 'бел',
+          link: '/by/'
+        }
       ]
     }
   },

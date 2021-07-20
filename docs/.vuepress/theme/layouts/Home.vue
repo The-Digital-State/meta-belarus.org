@@ -74,12 +74,15 @@
               <div class="flex-grow text-left">
                 <h3 v-if="$lang === 'en-US'" class="text-gray-600 text-xl font-bold mb-3">{{ slide.name }}</h3>
                 <h3 v-if="$lang === 'ru-BY'" class="text-gray-600 text-xl font-bold mb-3">{{ slide.name_ru }}</h3>
+                <h3 v-if="$lang === 'by-BY'" class="text-gray-600 text-xl font-bold mb-3">{{ slide.name_by }}</h3>
 
                 <p v-if="$lang === 'en-US'" class="text-gray-400 mb-4 text-sm">{{ slide.description }}</p>
                 <p v-if="$lang === 'ru-BY'" class="text-gray-400 mb-4 text-sm">{{ slide.description_ru }}</p>
+                <p v-if="$lang === 'by-BY'" class="text-gray-400 mb-4 text-sm">{{ slide.description_by }}</p>
 
                 <a v-if="slide.url" :href="slide.url" class="text-sm font-semibold text-blue-600 flex hover:text-blue-900"><span>{{$t('view_project')}}</span><ArrowRightIcon class="inline w-3 ml-2"/></a>
                 <router-link v-else-if="($lang === 'ru-BY' && slide.link_ru)" :to="slide.link_ru" class="text-sm font-semibold text-blue-600 flex hover:text-blue-900"><span>{{$t('view_project')}}</span><ArrowRightIcon class="inline w-3 ml-2"/></router-link>
+                <router-link v-else-if="($lang === 'by-BY' && slide.link_by)" :to="slide.link_by" class="text-sm font-semibold text-blue-600 flex hover:text-blue-900"><span>{{$t('view_project')}}</span><ArrowRightIcon class="inline w-3 ml-2"/></router-link>
                 <router-link v-else :to="slide.link" class="text-sm font-semibold text-blue-600 flex hover:text-blue-900"><span>{{$t('view_project')}}</span><ArrowRightIcon class="inline w-3 ml-2"/></router-link>
               </div>
             </div>
@@ -150,11 +153,14 @@
           {
             name: 'Albo',
             name_ru: 'Альбо',
+            name_by: 'Альбо',
             description: 'Digital voting system designed to fight tampering and forgery. Implements secret ballots, transparent vote counting and audit',
             description_ru: 'Система по электронному голосованию. Реализует тайну голосования, подсчет голосов и возможность аудита',
+            description_by: 'Система по электронному голосованию. Реализует тайну голосования, подсчет голосов и возможность аудита',
             icon: ShieldCheckIcon,
             link: '/project/albo.html',
-            link_ru: '/ru/project/albo.html'
+            link_ru: '/ru/project/albo.html',
+            link_by: '/by/project/albo.html'
           },
           {
             name: 'Meta-ID',
