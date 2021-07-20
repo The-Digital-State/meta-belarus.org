@@ -44,8 +44,17 @@
 
 <script>
 
+// Temporary until gateway can secure us
+if(window.location.host === 'meta-belarus.org') {
+  location.href = location.href.replace("meta-belarus.org", "www.meta-belarus.org");
+}
+if(window.location.protocol !== 'https:' && window.location.port !== "8080"){
+  location.href = location.href.replace("http://", "https://");
+}
+
 import ru from '../../../../locale/ru-BY'
 import en from '../../../../locale/en-GB'
+import by from '../../../../locale/by-BY'
 import {
   DownloadIcon,
 } from '@heroicons/vue/outline'

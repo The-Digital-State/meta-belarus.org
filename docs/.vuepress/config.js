@@ -16,6 +16,11 @@ module.exports = {
       title: 'Мэта Беларусь',
       description: 'Цифровое Государство Новой Беларуси',
     },
+    '/by/': {
+      lang: 'by-BY',
+      title: 'Мэта Беларусь',
+      description: 'Цифровое Государство Новой Беларуси',
+    },
   },
 
   bundlerConfig: {
@@ -29,3 +34,4 @@ module.exports = {
     }
   }
 }
+
