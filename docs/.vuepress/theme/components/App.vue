@@ -66,6 +66,10 @@ export default {
     return {
       nav: [
         {
+          name: 'press releases',
+          link: '/press-releases.html'
+        },
+        {
           name: 'eng',
           link: '/'
         },

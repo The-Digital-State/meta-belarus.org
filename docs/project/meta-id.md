@@ -3,15 +3,10 @@ layout: Project
 lang: en-US
 title: Meta-ID
 who: Local communities, Belarusians abroad and identity-related service providers
-how: Hide activist personal data, provide reliable way of proving identity
+how: Protect activist personal data, provide reliable way of proving identity
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fermentum dolor ex, sed venenatis mi mollis ac. Nullam consectetur vitae nisl sed pretium. Sed mattis pharetra est, id ornare augue auctor nec. Suspendisse ut odio nisl. Fusce at nulla nisi. Vivamus justo tellus, varius vitae sapien vel, mattis tincidunt libero. Nulla dictum lobortis ligula a vestibulum.
+Метa-id это цифровой паспорт, идентификация и верификация граждан. Проверяет участников при входе и регистрации на гражданство.
 
-## Header
+Политика личных данных пользователя: После верификации пользователя его данные стираются и не хранятся в системе, в системе остаётся только уникальный код. В процессе верификации паспортист убеждается, что пользователь живой уникальный человек. Все личные данные находятся и хранятся у пользователя. Пользователь сам решает какие данные предоставлять сервисам.
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fermentum dolor ex, sed venenatis mi mollis ac. Nullam consectetur vitae nisl sed pretium. Sed mattis pharetra est, id ornare augue auctor nec. Suspendisse ut odio nisl. Fusce at nulla nisi. Vivamus justo tellus, varius vitae sapien vel, mattis tincidunt libero. Nulla dictum lobortis ligula a vestibulum.
-
-:tada:
-
-One plus one equals: {{ 1 + 1 }}
+Некоторые из сервисов могут делать отметки в паспорте пользователя, к примеру о прохождении верификации
