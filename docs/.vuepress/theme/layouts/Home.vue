@@ -164,8 +164,8 @@
           },
           {
             name: 'Meta-ID',
-            name_ru: 'Мэта-ID',
-            name_by: 'Мэта-ID',
+            name_ru: 'МэтаID',
+            name_by: 'МэтаID',
             description: 'Belarus integration into EU eIDAS (SSI) network. Decentralised implementation using Blockchain technology.',
             description_ru: 'Интеграция Беларуси в EU eIDAS (SSI) сеть. Децентрализированное применение технологии блокчейн.',
             description_by: 'Інтэграцыя Беларусі ў EU eIDAS (SSI) сетку. Дэцэнтралізаванае прымяненне тэхналогіі блокчэйн.',
