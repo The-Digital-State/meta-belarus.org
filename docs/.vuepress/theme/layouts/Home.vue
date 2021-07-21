@@ -180,7 +180,7 @@
             name_by: 'Нацыя Лидераў',
             description: 'Educating citizens of Belarus. Offering courses on civil rights, anti-propaganda, community leadership, cyber security and more',
             description_ru: 'Образование граждан Беларуси. Доступны курсы по правам человека, анти-пропаганды, лидерству и кибер-безопасности',
-            description_by: 'Адукацыя грамадзян Беларусі. Ужо зараз курсы па правах чалавека, супраць-прапаганды, лідарству і кібер-бяспецы',
+            description_by: 'Адукацыя грамадзян Беларусі. Ужо зараз курсы па правах чалавека, супраць-прапаганды, па лідарству і кібер-бяспецы',
             icon: AcademicCapIcon,
             url: 'https://nationofleaders.org/' // TODO - not working
           },
