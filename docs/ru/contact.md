@@ -1,0 +1,21 @@
+---
+title: Contact Us
+---
+Мы растущий консорциум различных цифровых инициатив. Постоянно и каждый день мы
+развиваем цифровые инструменты для самоуправления и постройки государства для
+людей, чтобы сделать Беларусь лучшим местом для жизни. И мы заботимся о
+безопасности наших пользователей, партнёров и сотрудников. Поэтому если с
+вами контактировали от нашего имени, убедитесь, что это был верифицированный
+контакт.
+
+- Административный:
+- Технический:
+  
+
+Если хотите отправить нам сообщение:
+
+ - Email: info@meta-belarus.org
+ - Facebook: [https://www.facebook.com/metaBelarus](https://www.facebook.com/metaBelarus)
+ - LinkedIn: [https://www.linkedin.com/company/meta-belarus](https://www.linkedin.com/company/meta-belarus/)
+   
+Наш сайт на IPFS: [ipns://meta-belarus.org](ipns://meta-belarus.org)

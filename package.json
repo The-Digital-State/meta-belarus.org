@@ -8,8 +8,8 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "@geoffcodesthings/tailwind-md-base": "^1.1.0",
     "@heroicons/vue": "^1.0.1",
+    "@tailwindcss/typography": "^0.4.1",
     "@vuepress/utils": "^2.0.0-alpha.1",
     "add": "^2.0.6",
     "vue-i18n": "^9.1.6",

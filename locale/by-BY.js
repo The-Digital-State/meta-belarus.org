@@ -1,9 +1,9 @@
 export default {
     title: 'Мэта-Беларусь',
-    prefix: '/ru/',
+    prefix: '/by/',
     dl_manifest: 'Скачать Манифест',
     our_projects: 'Наши проекты',
-    who_uses: 'Кто этим пользуеться?',
+    who_uses: 'Хто гэтым карыстаецеся?',
     how_help: 'Как помочь инициативе?',
     view_project: 'Детальнее',
     telegram: 'Открыть в Telegram',
