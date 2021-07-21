@@ -1,7 +1,7 @@
 export default {
     title: 'Мэта-Беларусь',
     prefix: '/by/',
-    dl_manifest: 'Скачать Манифест',
+    dl_manifest: 'Скачать Манифест ',
     our_projects: 'Наши проекты',
     who_uses: 'Хто гэтым карыстаецеся?',
     how_help: 'Как помочь инициативе?',
