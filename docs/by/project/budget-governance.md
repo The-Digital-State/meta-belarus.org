@@ -1,18 +1,13 @@
 ---
-layout: Project
-lang: en-US
+layout: Кіраванне бюджэтам
+lang: by
 title: Meta-ID
-who: Local initiatives prosecuted by regime and in need of funding
-how: Create safe funding channel between donors/sponsors and initiative organisers
-help: Project is currently fundraising
-button_label: Download Project Plan
+Каму: Грамадзянскім ініцыятывам, якія патрабуюць дафінансавання.
+Як: Стварыць бяспечны абмен і празрыстае кіраванне агульнымі фондамі, як лакальнага, так і нацыянальнага ўзроўню 
+Дапамога: На стадыі пошукаў партнёраў
+button_label: спампаваць план праекту
 ---
 
-Regime in Belarus has seized control of national banks to trace and take away any monetary transfers
-directed to initiatives which are not favourable to the Regime.
-
-Our project "Budget Governance" makes use of decentralised blockchain technology and flat digital currencies
-to safely transfer money from Donors to the recipient.
-
+Рэжым у Беларусі злоўжывае кантролем над банкаўскімі рахункамі простых грамадзян, наш праект пабудаваны на тэхналёгіі блокчэйн, якая робіць вашыя сродкі недасягальным для злоўжывальнікаў. Мы так сама працуем над празрыстым і ананімным кіраваннем агульнымі фондамі, і надзейнымі пераводамі ад карыстальніка к карыстальніку.  
 ![An image](./img/budget-governance.png)
 
