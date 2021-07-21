@@ -165,33 +165,42 @@
           {
             name: 'Meta-ID',
             name_ru: 'Мэта-ID',
+            name_by: 'Мэта-ID',
             description: 'Belarus integration into EU eIDAS (SSI) network. Decentralised implementation using Blockchain technology.',
             description_ru: 'Belarus integration into EU eIDAS (SSI) network. Decentralised implementation using Blockchain technology.',
+            description_by: 'Belarus integration into EU eIDAS (SSI) network. Decentralised implementation using Blockchain technology.',
             icon: FingerPrintIcon,
             link_ru: '/ru/project/meta-id.html',
+            link_by: '/by/project/meta-id.html',
             link: '/project/meta-id.html'
           },
           {
             name: 'Nation of Leaders',
             name_ru: 'Нация Лидеров',
+            name_by: 'Нация Лидеров',
             description: 'Educating citizens of Belarus. Offering courses on civil rights, anti-propaganda, community leadership, cyber security and more',
             description_ru: 'Образование граждан Беларуси. Доступны курсы по правам человека, анти-пропаганды, лидерству и кибер-безопасности',
+            description_by: 'Образование граждан Беларуси. Доступны курсы по правам человека, анти-пропаганды, лидерству и кибер-безопасности',
             icon: AcademicCapIcon,
             url: 'https://nationofleaders.org/' // TODO - not working
           },
           {
             name: 'Budget Governance',
             name_ru: 'Бюджетный контроль',
+            name_by: 'Бюджетный контроль',
             description: 'Government-independent and secure budget and grant control implemented through the blockchain technology and flat crypto currency',
             description_ru: 'Система по контролю бюджетов основанной на блокчейне и fiat криптовалюте, неподконтрольная репрессивному режиму',
+            description_by: 'Система по контролю бюджетов основанной на блокчейне и fiat криптовалюте, неподконтрольная репрессивному режиму',
             icon: CurrencyEuroIcon,
             link: '/project/budget-governance.html'
           },
           {
             name: 'The Digital State',
             name_ru: 'Мэта государство',
+            name_by: 'Мэта государство',
             description: 'Blockchain-based self-governance system incorporating identity, election, power transfer, tax and budget control for decentralised parliament',
             description_ru: 'Де-централизованная парламентская система самоуправления на блокчейне: идентификация, выборы, передача власти, налог и бюджет',
+            description_by: 'Де-централизованная парламентская система самоуправления на блокчейне: идентификация, выборы, передача власти, налог и бюджет',
             icon: LibraryIcon,
             link: '/project/the-digital-state.html'
           }
