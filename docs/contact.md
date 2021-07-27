@@ -5,6 +5,7 @@ We're a growing consortium of different initiatives. Constantly and every
 day we are developing digital tools for self-governance to make Belarus a
 better place to live in. And we put the safety of our partners and employees
 first. 
+
 Only administration of MetaBelarus project can make statements and give comments 
 considering the project and any related development. Any information provided by 
 participants of open community or other individuals considered only as personal opinions. 
