@@ -8,14 +8,21 @@ title: Contact Us
 вами контактировали от нашего имени, убедитесь, что это был верифицированный
 контакт.
 
-- Административный:
-- Технический:
-  
+Административный:
 
-Если хотите отправить нам сообщение:
+- Михаил Ананьин [https://t.me/mikafonseca] @mikafonseca info@meta-belarus.org - координатор проекта;
+- Валерия Володина @valeria_sverige [https://t.me/valeria_sverige] - человеческие ресусры;
+- Ника Выговская @daoNika [https://t.me/daoNika] contact@meta-belarus.org - менеджер по коммуникациям;
+- Фил Вака @pfilwaka[https://t.me/pfilwaka] - безопасность;
+- Марк Вандал @markvandal [https://t.me/markvandal] - менеджер по продукту, лидер команды мэтаID.
 
- - Email: info@meta-belarus.org
- - Facebook: [https://www.facebook.com/metaBelarus](https://www.facebook.com/metaBelarus)
- - LinkedIn: [https://www.linkedin.com/company/meta-belarus](https://www.linkedin.com/company/meta-belarus/)
-   
+Читайте наши обновления в социальных сетях:
+
+
+- Facebook: https://www.facebook.com/metaBelarus
+- LinkedIn: https://www.linkedin.com/company/meta-belarus
+- Telegram: [https://t.me/meta_belarus]
+
 Наш сайт на IPFS: [ipns://meta-belarus.org](ipns://meta-belarus.org)
+
+- 
