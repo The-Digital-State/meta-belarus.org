@@ -18,7 +18,7 @@ Administration:
 - Valeria Volodina @valeria_sverige [https://t.me/valeria_sverige] - human dimension;
 - Nika Wegosky @daoNika [https://t.me/daoNika] contact@meta-belarus.org - connection manager; 
 - Pfil Waka @pfilwaka[https://t.me/pfilwaka] - security;
-- Mark Vandal @markvandal [https://t.me/markvandal] - leader of the metaID team. 
+- Mark Vandal @markvandal [https://t.me/markvandal] - product manager, leader of the metaID team. 
 
 
  Follow us on:
