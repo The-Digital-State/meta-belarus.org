@@ -4,18 +4,18 @@ title: Contact Us
 We're a growing consortium of different initiatives. Constantly and every
 day we are developing digital tools for self-governance to make Belarus a
 better place to live in. And we put the safety of our partners and employees
-first. So if you've ever been contacted from the meta-Belarus name, please,
-make sure that was one of the listed contacts. 
-We would be greatful for signalling unautharized contacts to us as well. 
+first. 
+Only administration of MetaBelarus project can make statements and give comments 
+considering the project and any related development. Any information provided by 
+participants of open community or other individuals considered only as personal opinions. 
+Please, check any information you’ve got with the administration of the project.
+Meta-Belarus is an independent self-sufficient project and isn’t a part of any other initiatives. 
+All official partners are specified on this site.
 
  - Administrative:
-Mike Ananyin [https://t.me/mikafonseca] @mikafonseca info@meta-belarus.org - CEO;
-Valeria Volodina @valeria_sverige [https://t.me/valeria_sverige] - Human demension;
+Mike Ananyin [https://t.me/mikafonseca] @mikafonseca info@meta-belarus.org - project coordinator;
+Valeria Volodina @valeria_sverige [https://t.me/valeria_sverige] - Human dimension;
 Nika Wegosky @daoNika [https://t.me/daoNika] contact@meta-belarus.org - connection manager. 
-
-
- - Technical: 
-Mike Ananyin [https://t.me/mikafonseca] @mikafonseca info@meta-belarus.org - architecture;
 Pfil Waka @pfilwaka[https://t.me/meta_belarus] - security;
 Mark Vandal @markvandal [https://t.me/meta_belarus] - leader of the metaID team. 
 
