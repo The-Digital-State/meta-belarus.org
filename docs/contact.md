@@ -15,7 +15,7 @@ All official partners are specified on this site.
 
 Administration:
 - Mike Ananyin [https://t.me/mikafonseca] @mikafonseca info@meta-belarus.org - project coordinator;
-- Valeria Volodina @valeria_sverige [https://t.me/valeria_sverige] - Human dimension;
+- Valeria Volodina @valeria_sverige [https://t.me/valeria_sverige] - human dimension;
 - Nika Wegosky @daoNika [https://t.me/daoNika] contact@meta-belarus.org - connection manager; 
 - Pfil Waka @pfilwaka[https://t.me/pfilwaka] - security;
 - Mark Vandal @markvandal [https://t.me/markvandal] - leader of the metaID team. 
