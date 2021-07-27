@@ -9,15 +9,15 @@ make sure that was one of the listed contacts.
 We would be greatful for signalling unautharized contacts to us as well. 
 
  - Administrative:
-Mike Ananyin [https://t.me/mikafonseca] @mikafonseca info@meta-belarus.org - CEO
-Valeria Volodina @valeria_sverige [https://t.me/valeria_sverige] - HR
-Nika Wegosky @daoNika [https://t.me/daoNika] contact@meta-belarus.org - connection manager 
+Mike Ananyin [https://t.me/mikafonseca] @mikafonseca info@meta-belarus.org - CEO;
+Valeria Volodina @valeria_sverige [https://t.me/valeria_sverige] - Human demension;
+Nika Wegosky @daoNika [https://t.me/daoNika] contact@meta-belarus.org - connection manager. 
 
 
  - Technical: 
-Mike Ananyin [https://t.me/mikafonseca] @mikafonseca info@meta-belarus.org - architecture
-Pfil Waka @pfilwaka[https://t.me/meta_belarus] - security
-Mark Vandal @markvandal [https://t.me/meta_belarus] - code
+Mike Ananyin [https://t.me/mikafonseca] @mikafonseca info@meta-belarus.org - architecture;
+Pfil Waka @pfilwaka[https://t.me/meta_belarus] - security;
+Mark Vandal @markvandal [https://t.me/meta_belarus] - leader of the metaID team. 
 
  - Email: info@meta-belarus.org
  - Facebook: [https://www.facebook.com/metaBelarus](https://www.facebook.com/metaBelarus)
