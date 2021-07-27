@@ -12,12 +12,12 @@ Please, check any information you’ve got with the administration of the projec
 Meta-Belarus is an independent self-sufficient project and isn’t a part of any other initiatives. 
 All official partners are specified on this site.
 
- - Administrative:
+Administration:
 Mike Ananyin [https://t.me/mikafonseca] @mikafonseca info@meta-belarus.org - project coordinator;
 Valeria Volodina @valeria_sverige [https://t.me/valeria_sverige] - Human dimension;
 Nika Wegosky @daoNika [https://t.me/daoNika] contact@meta-belarus.org - connection manager. 
-Pfil Waka @pfilwaka[https://t.me/meta_belarus] - security;
-Mark Vandal @markvandal [https://t.me/meta_belarus] - leader of the metaID team. 
+Pfil Waka @pfilwaka[https://t.me/pfilwaka] - security;
+Mark Vandal @markvandal [https://t.me/markvandal] - leader of the metaID team. 
 
  - Email: info@meta-belarus.org
  - Facebook: [https://www.facebook.com/metaBelarus](https://www.facebook.com/metaBelarus)
