@@ -44,9 +44,11 @@
 
 // Temporary until gateway can secure us
 if(window.location.host === 'meta-belarus.org') {
+  console.log('prepending www.')
   location.href = location.href.replace("meta-belarus.org", "www.meta-belarus.org");
 }
 if(window.location.protocol !== 'https:' && window.location.port !== "8080"){
+  console.log('forcing https')
   location.href = location.href.replace("http://", "https://");
 }
 
@@ -65,6 +67,10 @@ export default {
   data () {
     return {
       nav: [
+        {
+          name: 'press releases',
+          link: '/press-releases.html'
+        },
         {
           name: 'eng',
           link: '/'

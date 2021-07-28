@@ -1,17 +1,16 @@
 ---
-layout: Project
-lang: en-US
-title: Meta-ID
-who: Local communities, Belarusians abroad and identity-related service providers
-how: Hide activist personal data, provide reliable way of proving identity
+МэтаID
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fermentum dolor ex, sed venenatis mi mollis ac. Nullam consectetur vitae nisl sed pretium. Sed mattis pharetra est, id ornare augue auctor nec. Suspendisse ut odio nisl. Fusce at nulla nisi. Vivamus justo tellus, varius vitae sapien vel, mattis tincidunt libero. Nulla dictum lobortis ligula a vestibulum.
 
-## Header
+Кому:
+- гражданским инициативы локального, общенационального и международного уровня; 
+- сервисы,которым нужен защищённый обмен данными с пользователями.
 
+Как это работает: создание общего поля доверия, через защиту личных данных пользователей при помощи технологии блокчейн и взаимоверификации участников.
+---
+Метa-id это цифровой паспорт, система верификации граждан для получения отметок о принадлежности к беларуской идентичности. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fermentum dolor ex, sed venenatis mi mollis ac. Nullam consectetur vitae nisl sed pretium. Sed mattis pharetra est, id ornare augue auctor nec. Suspendisse ut odio nisl. Fusce at nulla nisi. Vivamus justo tellus, varius vitae sapien vel, mattis tincidunt libero. Nulla dictum lobortis ligula a vestibulum.
+*Политика личных данных пользователя: 
+После верификации пользователя его данные стираются и не хранятся в системе, в системе остаётся только уникальный код. В процессе верификации паспортист убеждается, что пользователь живой уникальный человек, гражданин Беларуси. Все личные данные находятся и хранятся у пользователя. Пользователь сам решает какие данные предоставлять сервисам на основе умных контрактов
 
-:tada:
-
-One plus one equals: {{ 1 + 1 }}
+Некоторые из сервисов могут делать отметки в паспорте пользователя, к примеру о прохождении верификации, получении квалификации, принадлежности к профсоюзу и т.д.

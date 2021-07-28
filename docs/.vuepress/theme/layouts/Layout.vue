@@ -11,7 +11,7 @@
       <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-20">
           <div class="col-span-2">
-            <div class="space-y-5">
+            <div class="space-y-5 prose">
               <Content />
             </div>
           </div>

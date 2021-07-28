@@ -6,7 +6,7 @@
           <span class="block"><span class="font-bold text-opacity-100 text-white">{{$t('title')}}</span> – {{$page.frontmatter.hero}}</span>
         </h1>
         <div class="mt-8 flex items-center lg:flex-shrink-0 md:space-x-4 flex-col md:flex-row md:space-y-0 space-y-2">
-          <a href="/manifest-en.pdf" class="w-full md:w-60 inline-flex items-center justify-center px-5 py-3 border border-blue-600 rounded font-bold text-white bg-blue-600 hover:bg-blue-700 hover:border-blue-700">
+          <a :href="'/manifest-'+$lang.split('-')[0]+'.pdf'" class="w-full md:w-60 inline-flex items-center justify-center px-5 py-3 border border-blue-600 rounded font-bold text-white bg-blue-600 hover:bg-blue-700 hover:border-blue-700">
             {{ $t('dl_manifest')}}
             <ArrowCircleDownIcon class="h-5 w-5 ml-2"/>
           </a>
@@ -156,7 +156,7 @@
             name_by: 'Альбо',
             description: 'Digital voting system designed to fight tampering and forgery. Implements secret ballots, transparent vote counting and audit',
             description_ru: 'Система по электронному голосованию. Реализует тайну голосования, подсчет голосов и возможность аудита',
-            description_by: 'Система по электронному голосованию. Реализует тайну голосования, подсчет голосов и возможность аудита',
+            description_by: 'Сістэма лічбавага галасавання. Рэалізуе тайну галасавання, падлік галасоў і магчымасць аўдыту',
             icon: ShieldCheckIcon,
             link: '/project/albo.html',
             link_ru: '/ru/project/albo.html',
@@ -164,34 +164,43 @@
           },
           {
             name: 'Meta-ID',
-            name_ru: 'Мэта-ID',
+            name_ru: 'МэтаID',
+            name_by: 'МэтаID',
             description: 'Belarus integration into EU eIDAS (SSI) network. Decentralised implementation using Blockchain technology.',
-            description_ru: 'Belarus integration into EU eIDAS (SSI) network. Decentralised implementation using Blockchain technology.',
+            description_ru: 'Интеграция Беларуси в EU eIDAS (SSI) сеть. Децентрализированное применение технологии блокчейн.',
+            description_by: 'Інтэграцыя Беларусі ў EU eIDAS (SSI) сетку. Дэцэнтралізаванае прымяненне тэхналогіі блокчэйн.',
             icon: FingerPrintIcon,
             link_ru: '/ru/project/meta-id.html',
+            link_by: '/by/project/meta-id.html',
             link: '/project/meta-id.html'
           },
           {
             name: 'Nation of Leaders',
             name_ru: 'Нация Лидеров',
+            name_by: 'Нацыя Лидераў',
             description: 'Educating citizens of Belarus. Offering courses on civil rights, anti-propaganda, community leadership, cyber security and more',
             description_ru: 'Образование граждан Беларуси. Доступны курсы по правам человека, анти-пропаганды, лидерству и кибер-безопасности',
+            description_by: 'Адукацыя грамадзян Беларусі. Ужо зараз курсы па правах чалавека, супраць-прапаганды, па лідарству і кібер-бяспецы',
             icon: AcademicCapIcon,
             url: 'https://nationofleaders.org/' // TODO - not working
           },
           {
             name: 'Budget Governance',
             name_ru: 'Бюджетный контроль',
+            name_by: 'Кантроль Бюджэту',
             description: 'Government-independent and secure budget and grant control implemented through the blockchain technology and flat crypto currency',
-            description_ru: 'Система по контролю бюджетов основанной на блокчейне и fiat криптовалюте, неподконтрольная репрессивному режиму',
+            description_ru: 'Система по контролю бюджетов основанной на блокчейне, что не позволяет никому злоупотреблять вашими средствами',
+            description_by: 'Сістэма па кантролю бюджэтаў, заснаваная на блакчэйне, што не дазваляе нікому злоўжываць вашымі сродкамі',
             icon: CurrencyEuroIcon,
             link: '/project/budget-governance.html'
           },
           {
             name: 'The Digital State',
             name_ru: 'Мэта государство',
+            name_by: 'Мэта дзяржава',
             description: 'Blockchain-based self-governance system incorporating identity, election, power transfer, tax and budget control for decentralised parliament',
-            description_ru: 'Де-централизованная парламентская система самоуправления на блокчейне: идентификация, выборы, передача власти, налог и бюджет',
+            description_ru: 'Децентрализованная парламентская система самоуправления на блокчейне: идентификация, выборы, передача власти, налог и бюджет',
+            description_by: 'Дэцэнтралізаваная парламентская сыстэма самакіравання на блокчэйне: ідэнтыфікацыя, выбары, перадача ўлады, налог і бюджэт',
             icon: LibraryIcon,
             link: '/project/the-digital-state.html'
           }
