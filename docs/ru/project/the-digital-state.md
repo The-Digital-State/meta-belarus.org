@@ -1,14 +1,14 @@
 ---
-layout: Project
-lang: en-US
-title: Meta-ID
-who: Local communities, Belarusians abroad and identity-related service providers
-how: Allow citizens and companies to fund politicians they elect democratically
-button_label: More Information
+layout: Проект
+lang: ru
+title: Цифровое государство
+who: Местные самоуправления, локальные инициативы, активные граждане и все заинтересованные в благосостоянии беларуского народа. 
+how: Принятие совместных валидных решений при помощи цифровых инструментов
+button_label: Читать больше
 button_url: https://app.gitbook.com/@the-digital-state/s/the-digital-state/
 ---
-The digital state is a software project implementing political governance system resistant to corruption, misinformation and abuse of human rights.
+Цифровое государство - это виртуальный кабинет со всеми доступными сервисами, в котором пользователь самостоятельно участвовать в самоуправлении и принятии решений на многих уровнях: от инициирования местных изменений до общереспубликанских законопроектов до распределения бюджета, что будет надёжной защитой от коррупции, ложной информации и нарушений прав человека.
 
-The components are backed up by blockchain technology and together form DAO. The Digital State provides tools and documentation how anyone could set up and configure and launch the project for a social group of their choice - community, company or even entire country. The individual network configuration can be decided at the launch state or modified later through consensus.
+Компоненты Цифрового государства поддерживаются технологией блокчейн и сформированы на основе концепции ДАО (децентрализованных автономных организаций). Пользователи мэтаID являются одновременно и совладельцами платформы, имеют право на участие в распределении прибыли от платформы, а так же могут добавлять свои платформы и сервисы и распространять информацию о них внутри сообщества. Имеют право подписываться и пользоваться всеми локальными сервисами на основании дополнительных пользовательских соглашений, имеют право заключать договоры пользуясь своим ID. Таким образом, беларусы станут хозяевами своей страны, её капитала, не на словах, а на деле. Ведь человеческий ресурс - это главное богатство Беларуси, и наша общая мэта быть счастливыми. 
 
 
