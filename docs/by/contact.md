@@ -11,11 +11,11 @@ title: Звяжыцеся з намі
  
 Адміністратары:
 
-- Майк Ананьін — [@mikafonseca](https://t.me/mikafonseca) info@meta-belarus.org - координатор проекта;
-- Валерыя Валодзіна — [@valeria_sverige](https://t.me/valeria_sverige) - человеческие ресусры;
-- Ника Выгоўская — [@daoNika](https://t.me/daoNika) - менеджер по коммуникациям;
-- «Фил Уака» — [@pfilwaka](https://t.me/pfilwaka) - безопасность;
-- «Марк Вандал» — [@markvandal](https://t.me/markvandal) - менеджер по продукту, лидер команды мэтаID.
+- Майк Ананьін — [@mikafonseca](https://t.me/mikafonseca) info@meta-belarus.org - каардынатар праекту;
+- Валерыя Валодзіна — [@valeria_sverige](https://t.me/valeria_sverige) - чалавечыя рэсурсы;
+- Ніка Выгоўская — [@daoNika](https://t.me/daoNika) - менеджэрка па камунікацыях;
+- «Філ Уака» — [@pfilwaka](https://t.me/pfilwaka) - бяспека;
+- «Марк Вандал» — [@markvandal](https://t.me/markvandal) - менеджер прадукту, кіраўнік каманды мэтаID.
 
 Папісывайцесь на нашыя навіны ў сацыяльных сетках:
 
