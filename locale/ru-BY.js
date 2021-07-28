@@ -3,7 +3,7 @@ export default {
     prefix: '/ru/',
     dl_manifest: 'Скачать Манифест',
     our_projects: 'Наши проекты',
-    who_uses: 'Кто этим пользуеться?',
+    who_uses: 'Для кого это?',
     how_help: 'Как помочь инициативе?',
     view_project: 'Детальнее',
     telegram: 'Открыть в Telegram',
