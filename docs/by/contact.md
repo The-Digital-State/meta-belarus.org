@@ -8,13 +8,28 @@ title: Contact Us
 кантактавалі ад нашага імя, просім упэўніцца, што гэта было з ліста
 нашых кантактаў:
 
- - Administrative:
- - Technical:
+ 
+Адміністратары:
 
-Если хотите отправить нам сообщение:
+- Майк Ананьін — [@mikafonseca](https://t.me/mikafonseca) info@meta-belarus.org - координатор проекта;
+- Валерыя Валодзіна — [@valeria_sverige](https://t.me/valeria_sverige) - человеческие ресусры;
+- Ника Выгоўская — [@daoNika](https://t.me/daoNika) - менеджер по коммуникациям;
+- «Фил Уака» — [@pfilwaka](https://t.me/pfilwaka) - безопасность;
+- «Марк Вандал» — [@markvandal](https://t.me/markvandal) - менеджер по продукту, лидер команды мэтаID.
 
- - Email: info@meta-belarus.org
+Папісывайцесь на нашыя навіны ў сацыяльных сетках:
+
+ - Telegram: [https://t.me/meta_belarus](https://t.me/meta_belarus)
  - Facebook: [https://www.facebook.com/metaBelarus](https://www.facebook.com/metaBelarus)
  - LinkedIn: [https://www.linkedin.com/company/meta-belarus](https://www.linkedin.com/company/meta-belarus/)
+ 
+Email: info@meta-belarus.org   
+Наш сайт на IPFS: [ipns://meta-belarus.org](ipns://meta-belarus.org)
 
-This site on IPFS: [ipns://meta-belarus.org](ipns://meta-belarus.org)
+### Верыфікацыя неафіцыйнай інфармацыі:
+
+Рабіць афіцыйныя заявы ад імя МэтаБеларусі могуць толькі адміністратары праекта. Інфармацыя, атрыманая ад прадстаўнікоў аткрытай суполкі альбо іншых асоб, з'яўляецца асабістым меркаваннем.
+
+**Правярайце атрыманую інфармацыю ў адміністратараў праекта**
+
+МэтаБеларусь таксама з'яўляецца самастойным праектам, а не часткай нейкай іншай ініцыятывы. Усе афіцыйныя партнёры пералічаны на нашай старонцы. 
