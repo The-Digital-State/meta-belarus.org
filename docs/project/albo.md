@@ -1,6 +1,5 @@
 ---
 layout: Project
-lang: en-US
 title: Meta-ID
 who: Local communities, Belarusians abroad and identity-related service providers
 how: Hide activist personal data, provide reliable way of proving identity

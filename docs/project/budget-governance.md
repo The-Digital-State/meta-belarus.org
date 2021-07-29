@@ -5,7 +5,7 @@ title: Meta-ID
 who: Local initiatives prosecuted by regime and in need of funding
 how: Create safe funding channel between donors/sponsors and initiative organisers
 help: Project is currently fundraising
-button_label: Download Project Plan
+#button_label: Download Project Plan
 ---
 
 Regime in Belarus has seized control of national banks to trace and take away any monetary transfers

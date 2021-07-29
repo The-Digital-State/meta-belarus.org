@@ -192,7 +192,9 @@
             description_ru: 'Система по контролю бюджетов основанной на блокчейне, что не позволяет никому злоупотреблять вашими средствами',
             description_by: 'Сістэма па кантролю бюджэтаў, заснаваная на блакчэйне, што не дазваляе нікому злоўжываць вашымі сродкамі',
             icon: CurrencyEuroIcon,
-            link: '/project/budget-governance.html'
+            link: '/project/budget-governance.html',
+            link_ru: '/ru/project/budget-governance.html',
+            link_by: '/by/project/budget-governance.html'
           },
           {
             name: 'The Digital State',
@@ -202,7 +204,9 @@
             description_ru: 'Децентрализованная парламентская система самоуправления на блокчейне: идентификация, выборы, передача власти, налог и бюджет',
             description_by: 'Дэцэнтралізаваная парламентская сыстэма самакіравання на блокчэйне: ідэнтыфікацыя, выбары, перадача ўлады, налог і бюджэт',
             icon: LibraryIcon,
-            link: '/project/the-digital-state.html'
+            link: '/project/the-digital-state.html',
+            link_ru: '/ru/project/the-digital-state.html',
+            link_by: '/by/project/the-digital-state.html'
           }
         ]
       }
