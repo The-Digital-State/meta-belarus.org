@@ -57,8 +57,8 @@
 <script>
   import App from '../components/App'
 
-  import { FingerPrintIcon } from '@heroicons/vue/outline'
-  import { ArrowNarrowRightIcon } from '@heroicons/vue/solid'
+  // import { FingerPrintIcon } from '@heroicons/vue/outline'
+  // import { ArrowNarrowRightIcon } from '@heroicons/vue/solid'
 
   export default {
 

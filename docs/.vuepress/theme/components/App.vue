@@ -2,24 +2,28 @@
   <div class="flex flex-col h-full min-h-full">
     <header class="bg-white flex-grow-0">
       <div
-          class="flex items-center max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:py-8 lg:px-8 md:flex-row flex-col space-y-5 md:space-y-0">
-        <div class="flex-grow">
+          class="flex items-center space-x-20 max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:py-6 lg:px-8 md:flex-row flex-col space-y-5 md:space-y-0">
+        <div>
           <router-link to="/">
-            <img src="@assets/logo-2.png" class="lg:w-48 md:w-40 w-32" />
+            <img src="@assets/logo-3.png" class="lg:w-48 md:w-40 w-32" />
           </router-link>
         </div>
-        <nav
-            class="text-xs md:space-x-10 flex md:flex-row flex-col text-center md:text-left md:items-center space-y-5 md:space-y-0">
-          <div class="space-y-2 flex flex-col md:flex-row md:space-y-0 md:space-x-7">
-            <router-link v-for="item in nav" :to="item.link"
-                         class="text-blue-600 uppercase tracking-widest font-semibold hover:text-blue-900">{{item.name}}
+        <nav class="text-xs flex-grow space-x-8 font-medium">
+          <router-link to="/" v-for="item in nav" class="uppercase tracking-widest font-semibold hover:text-blue-600">
+            {{ item.name }}
+          </router-link>
+        </nav>
+        <nav class="text-xs md:space-x-10 flex md:flex-row flex-col text-center md:text-left md:items-center space-y-5 md:space-y-0">
+          <div class="space-y-2 flex flex-col md:flex-row md:space-y-0 md:space-x-6">
+            <router-link v-for="item in navLang.slice(0,1)" :to="item.link" class="uppercase tracking-widest font-semibold hover:text-blue-600 flex items-center">
+              {{item.name}}
+              <i class="ri-arrow-down-s-line ml-2"></i>
             </router-link>
           </div>
-          <a href="https://github.com/markvandal/metabelarus.core.cr"
-                       class="inline-flex items-center justify-center w-32 text-center px-4 py-3 font-bold rounded text-white text-center bg-blue-600 hover:bg-blue-700">
-            GitHub
-            <DownloadIcon class="h-5 w-5 ml-2"/>
-          </a>
+          <div class="space-y-2 flex flex-col md:flex-row md:space-y-0 md:space-x-6 items-center">
+            <router-link to="/" class="uppercase tracking-widest inline-flex items-center justify-center px-5 py-3 border border-blue-600 rounded font-bold text-white bg-blue-600 hover:bg-blue-700 hover:border-blue-700">Sign up</router-link>
+            <router-link to="/" class="uppercase tracking-widest font-semibold hover:text-blue-600 flex whitespace-nowrap items-center space-x-4">Log in<i class="ri-login-circle-line ml-2"></i></router-link>
+          </div>
         </nav>
       </div>
     </header>
@@ -55,22 +59,39 @@
 import ru from '../../../../locale/ru-BY'
 import en from '../../../../locale/en-GB'
 import by from '../../../../locale/by-BY'
-import {
-  DownloadIcon,
-} from '@heroicons/vue/outline'
+// import {
+//   DownloadIcon, ShieldCheckIcon
+// } from '@heroicons/vue/outline'
+// import {
+//   ChevronRightIcon, ChevronDownIcon
+// } from '@heroicons/vue/solid'
 
 export default {
   name: 'App',
-  components: {
-    DownloadIcon,
-  },
+  // components: {
+  //   DownloadIcon, ChevronRightIcon, ChevronDownIcon, ShieldCheckIcon
+  // },
   data () {
     return {
       nav: [
         {
-          name: 'press releases',
-          link: '/press-releases.html'
+          name: 'About us',
+          link: '/'
         },
+        {
+          name: 'Projects',
+          link: '/'
+        },
+        {
+          name: 'News',
+          link: '/'
+        },
+        {
+          name: 'wiki',
+          link: '/'
+        },
+      ],
+      navLang: [
         {
           name: 'eng',
           link: '/'

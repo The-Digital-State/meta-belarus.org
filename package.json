@@ -12,6 +12,7 @@
     "@tailwindcss/typography": "^0.4.1",
     "@vuepress/utils": "^2.0.0-alpha.1",
     "add": "^2.0.6",
+    "remixicon": "^2.5.0",
     "vue-i18n": "^9.1.6",
     "vue3-carousel": "^0.1.23",
     "yarn": "^1.22.10"
