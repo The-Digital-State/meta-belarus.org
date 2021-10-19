@@ -3,7 +3,6 @@
     <section class="bg-blue-900">
       <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 text-white">
         <div class="flex mb-6 items-center space-x-4">
-          <FingerPrintIcon class="w-10" />
           <h1 class="text-3xl font-extrabold tracking-tight">{{$page.title}}</h1>
         </div>
         <div class="hidden flex uppercase tracking-widest text-sm lg:flex-row flex-col font-semibold lg:space-x-5">
