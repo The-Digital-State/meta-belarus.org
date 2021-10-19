@@ -33,7 +33,7 @@
                 <p>{{$page.frontmatter.who}}</p>
               </div>
               <div class="bg-blue-50 p-5 rounded text-blue-900">
-                <h3 class="font-bold mb-2">{{$t('how_help')}}</h3>
+                <h3 class="font-bold mb-2">{{$t('how_works')}}</h3>
                 <p>{{$page.frontmatter.how}}</p>
               </div>
             </div>
@@ -45,7 +45,25 @@
             <h2 class="font-bold mb-5 text-2xl">{{ $t('how_help') }}</h2>
             <a v-if="$page.frontmatter.button_label" :href="$page.frontmatter.button_url" class="w-full block bg-blue-600 text-center mb-7 py-3 px-5 rounded text-white font-bold">{{$page.frontmatter.button_label}}</a>
             <div class="space-y-3 text-blue-900">
+              <p>
               {{$page.frontmatter.help || $t('default_help')}}
+              </p>
+              <hr/>
+              <ul v-if="$lang === 'ru-BY'">
+                <li>- Расскажи о нас соседу!</li>
+                <li>- Подпишись на нас в Телеграм!</li>
+                <li>- Напиши нам и присоединись!</li>
+              </ul>
+              <ul v-if="$lang === 'en-US'">
+                <li>- Raise public awareness!</li>
+                <li>- Visit us in Телеграм!</li>
+                <li>- Join our team!</li>
+              </ul>
+              <ul v-if="$lang === 'by-BY'">
+                <li>- Распавядзі пра нас суседу!</li>
+                <li>- Падпішыся на наш Тэлеграм!</li>
+                <li>- Напішы нам і далучайся!</li>
+              </ul>
             </div>
           </aside>
         </div>

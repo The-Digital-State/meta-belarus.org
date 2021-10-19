@@ -4,6 +4,7 @@ export default {
     dl_manifest: 'Спампаваць Маніфесст',
     our_projects: 'Нашы праекты',
     who_uses: 'Для каго гэта?',
+    how_works: 'Як гэта працуе?',
     how_help: 'Як дапамагчы?',
     view_project: 'Больш дэтальна',
     telegram: 'Паглядзець у Тэлеграм',

@@ -4,6 +4,7 @@ export default {
     dl_manifest: 'Download Manifesto',
     our_projects: 'Our Projects',
     who_uses: 'Project target audience',
+    how_works: 'How does it work?',
     how_help: 'Goal of this project',
     view_project: 'View project',
     telegram: 'Join on Telegram',
