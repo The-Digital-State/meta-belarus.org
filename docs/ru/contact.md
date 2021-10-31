@@ -23,7 +23,7 @@ title: Свяжитесь с нами
  - LinkedIn: [https://www.linkedin.com/company/meta-belarus](https://www.linkedin.com/company/meta-belarus/)
  
 Email: info@meta-belarus.org   
-Наш сайт на IPFS: [ipns://meta-belarus.org](ipns://meta-belarus.org)
+Наш сайт на IPFS: [ipns://www.meta-belarus.org](ipns://www.meta-belarus.org)
 
 ### Проверка неофициальной информации
 

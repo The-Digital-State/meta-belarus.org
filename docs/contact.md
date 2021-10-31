@@ -23,9 +23,9 @@ Administration:
  Follow us on:
  - Facebook: [https://www.facebook.com/metaBelarus](https://www.facebook.com/metaBelarus)
  - LinkedIn: [https://www.linkedin.com/company/meta-belarus](https://www.linkedin.com/company/meta-belarus/)
- - Telegram: [https://t.me/meta_belarus]
+ - Telegram: [https://t.me/meta_belarus](https://t.me/meta_belarus)
 
-This site on IPFS: [ipns://meta-belarus.org](ipns://meta-belarus.org)
+This site on IPFS: [ipns://www.meta-belarus.org](ipns://www.meta-belarus.org)
 
 ### Verification of non-official information
 

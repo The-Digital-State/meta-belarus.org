@@ -70,6 +70,8 @@
           <slide v-for="slide in projects" :key="slide" class="p-2">
             <div class="p-8 box-white shadow rounded flex items-start">
               <component v-bind:is="slide.icon" class="w-44 mr-8 mt-1 text-blue-600"></component>
+              <img v-if="slide.image" src="@assets/albo.svg" class="w-20 mr-8 mt-1 text-blue-600"/>
+
               <div class="flex-grow text-left">
                 <h3 v-if="$lang === 'en-US'" class="text-gray-600 text-xl font-bold mb-3">{{ slide.name }}</h3>
                 <h3 v-if="$lang === 'ru-BY'" class="text-gray-600 text-xl font-bold mb-3">{{ slide.name_ru }}</h3>
@@ -156,7 +158,7 @@
             description: 'Digital voting system designed to fight tampering and forgery. Implements secret ballots, transparent vote counting and audit',
             description_ru: 'Система по электронному голосованию. Реализует тайну голосования, подсчет голосов и возможность аудита',
             description_by: 'Сістэма лічбавага галасавання. Рэалізуе тайну галасавання, падлік галасоў і магчымасць аўдыту',
-            icon: ShieldCheckIcon,
+            image: "bleh",
             link: '/project/albo.html',
             link_ru: '/ru/project/albo.html',
             link_by: '/by/project/albo.html'
