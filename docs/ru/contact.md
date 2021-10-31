@@ -14,7 +14,6 @@ title: Свяжитесь с нами
 - Валерия Володина — [@valeria_sverige](https://t.me/valeria_sverige) - человеческие ресусры;
 - Ника Выговская — [@daoNika](https://t.me/daoNika) - менеджер по коммуникациям;
 - «Фил Вака» — [@pfilwaka](https://t.me/pfilwaka) - безопасность;
-- «Марк Вандал» — [@markvandal](https://t.me/markvandal) - менеджер по продукту, лидер команды мэтаID.
 
 Читайте наши обновления в социальных сетях:
 
